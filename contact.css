@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+}
+#titlebar{
+    height: 180px;
+    width: 100%;
+    background-color: #fff;    
+}
+#titlebar img{
+    width: 150px;
+}
+label{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    background-color: darkorange;
+}
+button:hover{
+    color: #fff;
+}
+h1{
+    color: black;
+}
+p{
+    color: #fff;;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)), url(images/image9.jpg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    height: 100vh;   
+}
+#hacker{
+    /*width:100%;
+    max-width:1200px;
+    margin:0 auto;*/
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0 auto;  
+}
+#hacker > *{
+    padding: 5px;
+    margin: 5px;
+    flex: 1 100%;
+    border-radius: 5px;
+}
+.img-welcome-text{
+    text-align: center;
+    width: 100%;
+}
+p{
+    color: chocolate;
+}
+ #navbar{
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+    float: right;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    
+}
+ #navbar img{
+    width: 150px;
+    float: left;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+ #navbar ul{
+    list-style-type: none;
+    padding: 0;
+}
+ #navbar ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+ #navbar a:hover{
+    background-color: coral;
+    color: #fff;
+}
+/*@media screen and (min-width: 760px{
+    navbar ul(
+        display:flex;
+        justify-content:cenre;
+}
+
+}*/
+
+@media only screen and (min-width:800px){
+     #navbar ul{
+        display: flex;
+        justify-content: center;  
+      }
+ }
+ .container{
+    height: 300px;   
+ }
+ .container button{
+    text-align: center;
+    margin: 0;
+    background-color: cornflowerblue;
+    color: #fff;
+    
+ }
+ .container button a{
+    text-align: center;
+    text-decoration: none;
+ }
+ 
+ h1{
+    color: coral;
+    text-align: center;
+ }
+ p{
+    color: #fff;
+    text-align: center;
+ }
+
+    
+
+
+
+
+
+    

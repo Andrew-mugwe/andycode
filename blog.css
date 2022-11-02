@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/celine-sayuri-tagami-2s6ORaJY6gI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrapper > *{
+    padding: 5px;
+    margin: 5px;
+    flex: 1 100%;
+    border-radius: 5px;
+}
+.nav{
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+    float: right;
+    margin: 20px;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.nav a:hover{
+    background-color: #fff;
+    color: darkorange;
+}
+@media only screen and (min-width:800px){
+    .nav ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+p{
+    color: darkgoldenrod;
+    text-transform: lowercase;
+}
+.history-text img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: 500px;
+} 
+button{
+    background-color: cornflowerblue;
+    justify-content: center;
+    display: flex;
+    margin-left: 600px;
+}
+@media only screen and (min-width:200x){
+    .history-text img{
+        display: flex;
+        justify-content: center;
+    }    
+}
+
